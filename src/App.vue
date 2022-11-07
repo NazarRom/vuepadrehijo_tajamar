@@ -1,19 +1,23 @@
 <template>
   <!-- <PadreDeporte/> -->
  <!--  <PadreNumero/>  -->
- <PadreComics/>
+ <!-- <PadreComics/> -->
+ <MenuComponent/>
+ <router-view></router-view>
 </template>
 
 <script>
 // import PadreDeporte from './components/PadreDeporte.vue'
 //import PadreNumero from './components/PadreNumero.vue'
-import PadreComics from './components/PadreComics.vue'
+// import PadreComics from './components/PadreComics.vue'
+import MenuComponent from './components/MenuComponent.vue'
 export default {
   name: 'App',
   components: {
     // PadreDeporte,
     //PadreNumero
-    PadreComics
+    // PadreComics
+    MenuComponent
   }
 }
 </script>
